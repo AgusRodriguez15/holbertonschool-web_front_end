@@ -38,15 +38,14 @@ html {
     color: var(--text-color);
     text-decoration: none;
   }
+  a[href]:visited {
+    font-style: italic;
+  }
   a[href]:hover {
     text-decoration: underline;
   }
   a[href]:active {
     background-color: var(--color-light-grey);
-  }
-  a {
-    color: var(--text-color);
-    text-decoration: none;
   }
   .visually-hidden {
     display: none;
