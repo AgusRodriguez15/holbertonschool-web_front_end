@@ -229,6 +229,33 @@ ul.row {
     margin: 0; /* Eliminar márgenes en todos los lados */
 }
 
+/* Estilos para enlaces dentro de card-services */
+.card-services a {
+    display: block; /* Renderizar como elemento de bloque */
+    padding: 2rem; /* Padding de 2 veces el tamaño de fuente base */
+    background-color: var(--color-light-grey); /* Color de fondo */
+    text-decoration: none; /* Eliminar subrayado de texto */
+}
+
+/* Estilos para el estado hover de los enlaces dentro de card-services */
+.card-services a:hover {
+    color: var(--color-white); /* Color del texto en hover */
+    background-color: var(--color-primary); /* Color de fondo en hover */
+    text-decoration: none; /* Eliminar subrayado de texto */
+}
+
+/* Estilos para el tema 'dark' */
+[data-section-theme="dark"] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+[data-section-theme="dark"] .section-title {
+    color: var(--color-white);
+}
+
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
