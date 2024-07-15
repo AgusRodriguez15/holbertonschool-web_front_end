@@ -39,6 +39,11 @@
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
+
+    /* Colores del tema oscuro */
+    --dark-text-color: var(--color-white);
+    --dark-section-title-color: var(--color-white);
+    --dark-background-color: var(--color-black);
 }
 
 /* Reset de estilos y configuraciones básicas */
@@ -213,12 +218,14 @@ ul.row {
 
 /* Estilos para el tema 'dark' */
 [data-section-theme="dark"] {
-    color: var(--color-white);
-    background-color: var(--color-black);
+    --text-color: var(--dark-text-color);
+    --section-title-color: var(--dark-section-title-color);
+    background-color: var(--dark-background-color);
+    color: var(--dark-text-color);
 }
 
 [data-section-theme="dark"] .section-title {
-    color: var(--color-white);
+    color: var(--dark-section-title-color);
 }
 
 
